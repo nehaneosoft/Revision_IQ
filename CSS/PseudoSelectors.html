@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Selectors</title>
+    <style>
+        .container{
+            width: 600px;
+            border: 2px solid greenyellow;
+            background-color: rgb(172, 238, 238);
+            padding: 10px;
+            margin:auto;
+        }
+        a{
+            text-decoration: none;
+        }
+        a:hover{
+            background-color: rgb(150, 209, 39);
+        }
+        a:visited{
+            background-color: rgb(150, 137, 196);
+        }
+        a:active{
+            background-color: chocolate;
+            
+        }
+        .btn{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: bold;
+            background: crimson;
+            padding: 6px;
+            margin: 10px;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        .btn:hover{
+            background-color: rgb(223, 78, 41);
+            border:2px solid black
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="cont1">
+        <h3>Heading one</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum dolorem voluptatem modi, sunt illum fugiat! Provident, libero hic eos veniam deleniti nostrum nam ullam cupiditate quo eaque, dolor possimus adipisci.</p>
+        <a href="https://www.googled.com" class="btn">Read More</a>
+        <button class="btn">Contact US</button>
+    </div>
+</body>
+</html>
